@@ -103,7 +103,7 @@ static void CreateOBS(HWND hwnd)
     ovi.base_height     = rc.bottom;
     ovi.fps_num         = 30000;
     ovi.fps_den         = 1001;
-    ovi.graphics_module = "libobs-d3d11.dll";//DL_D3D11;
+    ovi.graphics_module = "libobs-opengl.dll";//DL_D3D11;
     ovi.output_format   = VIDEO_FORMAT_I420;
     ovi.output_width    = rc.right;
     ovi.output_height   = rc.bottom;
